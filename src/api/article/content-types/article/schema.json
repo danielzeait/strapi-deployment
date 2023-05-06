@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Article"
+    "displayName": "Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,12 @@
   "attributes": {
     "content": {
       "type": "richtext"
+    },
+    "carousel": {
+      "displayName": "componet",
+      "type": "component",
+      "repeatable": false,
+      "component": "article-component.componet"
     }
   }
 }
