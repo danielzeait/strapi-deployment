@@ -26,6 +26,48 @@
       "relation": "oneToOne",
       "target": "api::category.category",
       "inversedBy": "article"
+    },
+    "titulo": {
+      "type": "text"
+    },
+    "sumario": {
+      "type": "text"
+    },
+    "resumen": {
+      "type": "text"
+    },
+    "autor": {
+      "type": "string"
+    },
+    "imagen_autor": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cover_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "article_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
