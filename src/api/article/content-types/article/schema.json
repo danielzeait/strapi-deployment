@@ -20,6 +20,12 @@
       "type": "component",
       "repeatable": false,
       "component": "article-component.componet"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category",
+      "inversedBy": "article"
     }
   }
 }
